@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Creator</title>
+    <link rel="stylesheet" href="/tailwind.css">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-800">
+    <textarea name="textInput" id="" cols="60" rows="5" class="block mx-auto my-10 p-1 px-5 border-2 border-black bg-gray-900 rounded-md text-white text-lg focus:outline-none"></textarea>
+
+    <input type="url" class="m-2 mr-0 p-1 px-5 border-2 border-black border-r-0 bg-gray-900 rounded-md rounded-r-none text-white text focus:outline-none">
+    <button name="linker" class="bg-green-500 text-white p-1 px-2 rounded-lg rounded-l-none -ml-1 border-black border-2 border-l-0 hover:bg-green-600 duration:1000  transition">link</button>
+    <small class="block font-sans text-white">Insert url here and select text</small>
+    <button name="submit" onclick="submitText()" class="block bg-green-500 text-white text-2xl p-1 px-7 pt-0.5 rounded-xl mx-auto my-6 align-middle">enter</button>
+    <div class="hidden mx-auto my-10 p-1 px-5 border-2 border-black bg-gray-900 rounded-md text-white text-lg focus:outline-none" id="text-result"></div>
+    
+    <script src="/index.js"></script>
+
+</body>
+</html>
