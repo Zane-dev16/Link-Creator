@@ -10,10 +10,9 @@
 <body class="bg-gray-800">
     <small ></small>
     <textarea name="textInput" id="" cols="60" rows="5" class="block mx-auto my-10 p-1 px-5 border-2 border-black bg-gray-900 rounded-md text-white text-lg focus:outline-none"></textarea>
-
-    <input type="url" class="m-2 mr-0 p-1 px-5 border-2 border-black border-r-0 bg-gray-900 rounded-md rounded-r-none text-white text focus:outline-none">
-    <button name="linker" class="bg-green-500 text-white p-1 px-2 rounded-lg rounded-l-none -ml-1 border-black border-2 border-l-0 hover:bg-green-600 duration:1000  transition">link</button>
-    <small class="block font-sans text-white">Insert url here and select text</small>
+    <span class="text-white hover:underline"></span>
+    <input type="url" class="hidden m-2 mr-0 p-1 px-5 border-2 border-black border-r-0 bg-gray-900 rounded-md rounded-r-none text-white text focus:outline-none">
+    <button onclick="linkText()" class="hidden bg-green-500 text-white p-1 px-2 rounded-lg rounded-l-none -ml-1 border-black border-2 border-l-0 hover:bg-green-600 duration:1000 transition focus:outline-none">link</button>
     <button name="submit" onclick="submitText()" class="block bg-green-500 text-white text-2xl p-1 px-7 pt-0.5 rounded-xl mx-auto my-6 align-middle">enter</button>
     <div class="hidden mx-auto my-10 p-1 px-5 border-2 border-black bg-gray-900 rounded-md text-white text-lg focus:outline-none" id="text-result"></div>
     
